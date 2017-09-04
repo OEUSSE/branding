@@ -79,7 +79,8 @@ function drawBrandContainer () {
           class="button">
         <i class="icon-codepen"></i>
       </a>
-    </div>`
+    </div>
+    <div id="map" style="display:none"></div>`
   
   title('OE - Frontend Developer')
   empty(mainContainer).appendChild(branContainer)
@@ -168,7 +169,7 @@ function init () {
 
 window.onload = function () {
   //if (hasConsoleError) console.clear()
-  console.log("%c¡Alto ahí!", "color: red; font-style: italic; font-size: 12vmin;")
+  //console.log("%c¡Alto ahí!", "color: red; font-style: italic; font-size: 12vmin;")
 }
 
 function hasConsoleError () {
