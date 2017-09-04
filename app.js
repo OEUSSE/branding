@@ -1,11 +1,9 @@
 const mainContainer = document.querySelector('.main-container')
 let origen = document.title
 
-var map = {
-  state: false
-}
-
 function initMap () {
+  if (!document.querySelector('#map')) return
+
   var myLatLng = { lat: 5.067642, lng: -75.515471 }
   var mapStyle = styles['night'] // silver, night, retro, hiding
 
@@ -80,7 +78,7 @@ function drawBrandContainer () {
         <i class="icon-codepen"></i>
       </a>
     </div>
-    <div id="map" style="display:none"></div>`
+    <!--<div id="map" style="display:none"></div>-->`
   
   title('OE - Frontend Developer')
   empty(mainContainer).appendChild(branContainer)
