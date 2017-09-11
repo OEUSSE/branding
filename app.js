@@ -11,7 +11,7 @@ function initMap () {
     center: myLatLng,
     mapTypeControl: false,
     scrollWheel: false,
-    zoom: 6
+    zoom: 7
   })
 
   //Marker
